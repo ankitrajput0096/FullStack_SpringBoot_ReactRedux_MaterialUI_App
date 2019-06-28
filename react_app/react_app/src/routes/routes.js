@@ -12,6 +12,10 @@ import Album from '../containers/album/Album';
 import CheckOutForm from '../containers/checkout/Checkout';
 import Pricing from '../containers/pricing/Pricing';
 import SignUp from '../containers/sign-in/SignIn';
+import OnePirateWebsite from '../websites/onepirate/Home';
+import PaperBase from '../websites/paperbase/Paperbase';
+import instaPaper from '../websites/instapaper/pages/instapaper/Profile';
+import tweeper from '../websites/tweeper/pages/tweeper/Profile';
 
 export default () => {
  return (
@@ -24,6 +28,10 @@ export default () => {
         <Route path='/checkOutForm' component={CheckOutForm}/>
         <Route path='/pricing' component={Pricing}/>
         <Route path='/signUp' component={SignUp}/>
+        <Route path='/onePirateWebsite' component={OnePirateWebsite}/>
+        <Route path='/paperBase' component={PaperBase}/>
+        <Route path='/intaPaper' component={instaPaper}/>
+        <Route path='/tweeper' component={tweeper}/>
     </Switch>
    </BrowserRouter>
  )

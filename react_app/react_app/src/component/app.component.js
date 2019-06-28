@@ -22,6 +22,13 @@ class MyComponent extends Component {
       <br/>
       <NavLink to='/signUp'>Click here to go sign Up page</NavLink>
       <br/>
+      <NavLink to='/onePirateWebsite'> Click here to go to one priate website</NavLink>
+      <br/>
+      <NavLink to='/paperBase'> click here to go to paperbase </NavLink>
+      <br/>
+      <NavLink to='/intaPaper'> click here to go to instaPaper</NavLink>
+      <br/>
+      <NavLink to='/tweeper'> click here to go to tweeper</NavLink>
     </div>
     );
   }
